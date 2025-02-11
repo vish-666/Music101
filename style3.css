@@ -1,0 +1,55 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.header{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.job-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    border-radius: 40%;
+    padding-bottom: 20px;
+}
+
+.job {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+.job img {
+    width: 100%;
+    height: auto;
+}
+
+.job h3 {
+    margin: 10px 0;
+}
+
+.job p {
+    margin: 5px 0;
+}
+
+.job button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.job button:hover {
+    background-color: #45a049;
+}
+
+

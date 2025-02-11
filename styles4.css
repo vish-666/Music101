@@ -1,0 +1,73 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Image Styling for Artist Images */
+.artist-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Song list section styling */
+.song-list {
+    margin: 20px;
+}
+
+.song-list h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+
+.song-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.song-list li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Footer styling */
+footer {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+

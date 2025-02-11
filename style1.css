@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.container{
+    height: 100vh ;
+    width: 100%;
+    background-color:rgb(0,0,0,0.4) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logIn {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    background-color: #fff;
+}
+
+
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.SignIn a {
+    font-size: 23px;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 15px 25px ;
+    border-radius: 50px ;
+    transition: 0.3s;
+}
+.SignIn  a:hover{
+background-color: #fff;
+color: black ;
+}
+.background-clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio:16/9){
+    .background-clip{
+        width: 100%;
+        height: auto;
+
+    }
+}
+@media(max-aspect-ratio:16/9){
+    .background-clip{
+        width: auto;
+        height: 100%;
+    }
+}
+.container-fluid:hover{
+    background-color: #fff;
+    color: black ;
+    }
