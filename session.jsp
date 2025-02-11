@@ -1,23 +1,21 @@
-<%-- 
-    Document   : session.jsp
-    Created on : 14 Nov 2024, 1:22:12 pm
-    Author     : User
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP </title>
-    </head>
-    <body>
-        <%
-        String name=(String)session.getAttribute("user");
-        out.print("Hello"+name);
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>JSP </title>
+</head>
+<body>
+    <%
+        String name = (String) session.getAttribute("user");
 
-
-            %>
-            
-    </body>
+        if (name == null) {
+            // Redirect to login page if no session data is found
+            response.sendRedirect("login.html");
+        } else {
+            out.print("Hello, " + name + "!");
+        }
+    %>
+</body>
 </html>
+
